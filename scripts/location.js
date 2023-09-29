@@ -6,6 +6,7 @@ function getCityCountryFromIp(ip) {
     request.open('GET', 'https://ipapi.co/' + ip + '/json/', false);  // false for synchronous request
     // Send the request
     request.send();
+    
     // Check if the request was successful (status code 200)
     if (request.status === 200) {
         // Parse the response as JSON
