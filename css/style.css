@@ -29,3 +29,7 @@ label:hover{
     background: linear-gradient(rgb(59, 59, 59), rgb(98, 98, 98) 22%,rgb(130, 130, 130) 28%,rgb(98, 98, 98) 32%,rgb(59, 59, 59) 50%);
  
 }
+#map {
+    height: 500px;
+    width: 100%;
+}
